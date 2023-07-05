@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 4</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="./index.html">1</a></li>
+            <li><a href="./2.html">2</a></li>
+            <li><a href="./3.html">3</a></li>
+            <li><a href="./4.html">4</a></li>
+            <li><a href="./5.html">5</a></li>
+            <li><a href="./6.html">6</a></li>
+            <li><a href="./7.html">7</a></li>
+            <li><a href="./8.html">8</a></li>
+            <li><a href="./9.html">9</a></li>
+            <li><a href="./10.html">10</a></li>
+            <li><a href="./11.html">11</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>7.	Calcule el índice de masa muscular de una persona con la siguiente fórmula (IMC=peso/(altura x altura)), pidiendo como datos su altura y peso. imprima en pantalla lo siguiente: <br>
+            a.	 Si el IMC es por debajo de 18.5 : Bajo peso debe ir al nutricionista <br>
+            b.	Si el IMC es 18.5—24.9 : Normal <br>
+            c.	Si el IMC es 25.0—29.9 : Sobrepeso <br>
+            d.	Si el IMC es 30.0 o más : Obeso debe ir al nutricionista <br>
+            </p>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso">
+
+        <label for="altura">Altura (metros):</label>
+        <input type="number" id="altura">
+
+        <button onclick="calcularIMC()">Calcular</button>
+
+        <div id="resultadoIMC"></div>
+        <div id="mensaje"></div>
+
+    </main>
+    <footer>
+        <hr>
+        <p>Desarrollador:Luis Fernando Torres Correa</p>
+        <p>Profesor: Jossy Tello</p>
+        <p>Materia: Programacion web 1</p>
+    </footer>
+    <script src="./js/7.js"></script>
+</body>
+
+</html>

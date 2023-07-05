@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 4</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="./index.html">1</a></li>
+            <li><a href="./2.html">2</a></li>
+            <li><a href="./3.html">3</a></li>
+            <li><a href="./4.html">4</a></li>
+            <li><a href="./5.html">5</a></li>
+            <li><a href="./6.html">6</a></li>
+            <li><a href="./7.html">7</a></li>
+            <li><a href="./8.html">8</a></li>
+            <li><a href="./9.html">9</a></li>
+            <li><a href="./10.html">10</a></li>
+            <li><a href="./11.html">11</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>6.	Cree un conversor de temperatura, investigando la fórmula para pasar grados de Celsius a Fahrenheit y viceversa, pida al usuario la temperatura a convertir y muestra en pantalla lo siguiente: <br>
+            ●	Si la Temperatura es menos  0°C  o 32°F : Nos congelamos <br>
+            ●	Si la Temperatura es entre de 5°C a 15°C  o 33°F a 50°F : Esta haciendo frio <br>
+            ●	Si la Temperatura es entre de 16°C a 25°C  o 51°F a 77°F : Está templado el dia <br>
+            ●	Si la Temperatura es más de 26°C  o 78°F : Tiene fiebre o es el apocalipsis. <br>
+            </p>
+        <label for="temperatura">Temperatura:</label>
+        <input type="number" id="temperatura">
+
+        <select id="unidad">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+
+        <button onclick="convertirTemperatura()">Convertir</button>
+
+        <div id="resultado"></div>
+        <div id="mensaje"></div>
+    </main>
+    <footer>
+        <hr>
+        <p>Desarrollador:Luis Fernando Torres Correa</p>
+        <p>Profesor: Jossy Tello</p>
+        <p>Materia: Programacion web 1</p>
+    </footer>
+    <script src="./js/6.js"></script>
+</body>
+
+</html>
