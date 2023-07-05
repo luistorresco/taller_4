@@ -1,5 +1,5 @@
 function solicitarFecha() {
-  var fechaActual = prompt("Ingrese la fecha actual (formato: DD/MM/AAAA):");
+  var fechaActual = prompt("Ingrese la fecha actual (formato: MM/DD/AAAA):");
   calcularDiasSemanas(fechaActual);
 }
 
@@ -15,7 +15,7 @@ function calcularDiasSemanas(fechaActual) {
   );
 
   // Calculamos la cantidad de semanas faltantes dividiendo los días faltantes entre 7
-  var semanasFaltantes = Math.floor(diasFaltantes / 7);
+  var semanasFaltantes = Math.floor((365 - diasFaltantes) / 7) ;
 
   var mensaje =
     "Faltan " +
