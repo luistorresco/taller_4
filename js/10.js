@@ -1,5 +1,5 @@
 function solicitarFecha() {
-  var fechaActual = prompt("Ingrese la fecha actual (formato: MM/DD/AAAA):");
+  var fechaActual = prompt("Ingrese la fecha actual (formato: DD/MM/AAAA):");
   calcularDiasSemanas(fechaActual);
 }
 
